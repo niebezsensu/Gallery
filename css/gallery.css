@@ -37,7 +37,7 @@ body{
 	background-position: center;
 	margin-left: auto;
 	margin-right: auto;
-	background: radial-gradient(rgba(255,255,255,0.01), hsla(200, 15%, 70%, 0.3), hsla(200, 30%, 70%, 0.6));
+	background: radial-gradient(rgba(255,255,255,0.01), hsla(200, 15%, 70%, 0.3), hsla(200, 40%, 80%, 0.6));
 	z-index: 1;
 	clear: both;
 }
@@ -58,6 +58,8 @@ body{
 	background: radial-gradient(rgba(255,255,255,0.01), hsla(200, 15%, 70%, 0.3), hsla(200, 30%, 70%, 0.6));
 	z-index: 1;
 	clear: both;
+
+	overflow: auto;
 }
 
 #ob1b, #ob2b, #ob3b, #ob4b, #ob5b{
@@ -72,3 +74,4 @@ body{
 
 	visibility: hidden;
 }
+

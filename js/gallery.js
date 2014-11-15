@@ -15,6 +15,7 @@ ob5.addEventListener('click', function(){displayIm(ob5)}, false);
 
 var current = null;
 
+
 function displayIm(im){
 
 	var el = document.getElementById(im.id+'b');
